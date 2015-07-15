@@ -1,0 +1,54 @@
+{
+  "name": "file-symlinks",
+  "description": "Resolves the realpath for symlinks, and exposes the `stat` property on a `file` object. Abstraction from vinyl-fs to support non-stream or stream usage.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/file-symlinks",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/file-symlinks",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/file-symlinks/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.2",
+    "through2": "^2.0.0"
+  },
+  "keywords": [
+    "directory",
+    "file",
+    "is",
+    "is-directory",
+    "is-file",
+    "plugin",
+    "stat",
+    "stats",
+    "stream",
+    "symlinks",
+    "through",
+    "vinyl"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "file-contents",
+        "file-stat",
+        "stream-loader",
+        "vinyl",
+        "vinyl-fs"
+      ]
+    }
+  }
+}
