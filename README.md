@@ -1,8 +1,8 @@
 # file-symlinks [![NPM version](https://badge.fury.io/js/file-symlinks.svg)](http://badge.fury.io/js/file-symlinks)
 
-> Resolve symlinks and expose the `stat` property on a file object.
+> Resolves the realpath for symlinks, and exposes the `stat` property on a `file` object. Abstraction from vinyl-fs to support non-stream or stream usage.
 
-This is inspired by the `file.stat` code in [vinyl-fs][]. I needed a function that essentially did the same thing but could be used with stream or non-stream code.
+This is inspired by the `file.stat` code in [vinyl-fs](http://github.com/wearefractal/vinyl-fs). I needed a function that essentially did the same thing but could be used with stream or non-stream code.
 
 ## Install
 
